@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include g1fiba *.css
+recursive-include g1fiba *.csv
+recursive-include g1fiba *.html
+recursive-include g1fiba *.ico
+recursive-include g1fiba *.js
+recursive-include g1fiba *.json
+recursive-include g1fiba *.md
+recursive-include g1fiba *.png
+recursive-include g1fiba *.py
+recursive-include g1fiba *.svg
+recursive-include g1fiba *.txt
+recursive-exclude g1fiba *.pyc

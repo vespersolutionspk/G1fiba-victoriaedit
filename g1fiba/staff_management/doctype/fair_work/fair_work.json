@@ -1,0 +1,178 @@
+{
+ "actions": [],
+ "autoname": "field:user",
+ "creation": "2021-06-12 09:52:44.142638",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "html_1",
+  "balancing_work_and_family_section",
+  "html_2",
+  "html_3",
+  "html_4",
+  "html_6",
+  "hours_of_work_section",
+  "html_8",
+  "html_9",
+  "html_10",
+  "html_11",
+  "html_12",
+  "html_13",
+  "html_14",
+  "managing_performance_section",
+  "html_16",
+  "html_17",
+  "record_keeping_section",
+  "html_19",
+  "section_break_20",
+  "user",
+  "select_6",
+  "signature_7"
+ ],
+ "fields": [
+  {
+   "fieldname": "html_1",
+   "fieldtype": "HTML",
+   "options": "<h1>Fair Work</h1>"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "balancing_work_and_family_section",
+   "fieldtype": "Section Break",
+   "label": "Balancing work and family"
+  },
+  {
+   "fieldname": "html_2",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/application-to-extend-parental-leave-beyond-12-months.docx\" target=\"_blank\">Application to extend parental leave beyond 12 months<br></a>"
+  },
+  {
+   "fieldname": "html_3",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/Application-to-vary-parental-leave-within-12-months.doc\" target=\"_blank\">Application to vary parental leave within 12 months<br></a>"
+  },
+  {
+   "fieldname": "html_4",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/Parental-leave-request-template.doc\" target=\"_blank\">Parental leave request template<br></a>"
+  },
+  {
+   "fieldname": "html_6",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/Request-for-flexible-working-arrangements-letter-template.doc\" target=\"_blank\">Request for flexible working arrangements letter template<br></a>"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "hours_of_work_section",
+   "fieldtype": "Section Break",
+   "label": "Hours of work"
+  },
+  {
+   "fieldname": "html_8",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/ageement-to-annual-leave-in-advance.docx\" target=\"_blank\">Agreement to annual leave in advance<br></a>"
+  },
+  {
+   "fieldname": "html_9",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/agreement-to-cash-out-annual-leave.docx\" target=\"_blank\">Agreement to cash out annual leave<br></a>"
+  },
+  {
+   "fieldname": "html_10",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/direction-to-take-excessive-annual-leave.docx\" target=\"_blank\">Direction to take excessive annual leave<br></a>"
+  },
+  {
+   "fieldname": "html_11",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/Full-time-hours-of-work-agreement-or-variation-template.docx\" target=\"_blank\">Full time hours of work agreement or variation-template<br></a>"
+  },
+  {
+   "fieldname": "html_12",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/Leave-application-form.doc\" target=\"_blank\">Leave application form<br></a>"
+  },
+  {
+   "fieldname": "html_13",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/Notice-of-requirement-to-take-annual-leave-for-close-down.doc\" target=\"_blank\">Notice of requirement to take annual leave for close-down<br></a>"
+  },
+  {
+   "fieldname": "html_14",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/Part-time-hours-of-work-agreement-variation.doc\" target=\"_blank\">Part time hours of work agreement variation<br></a>"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "Staff Member",
+   "options": "User",
+   "unique": 1
+  },
+  {
+   "fieldname": "select_6",
+   "fieldtype": "Select",
+   "options": "I have read and understood.\nI require clarification."
+  },
+  {
+   "fieldname": "signature_7",
+   "fieldtype": "Signature"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "managing_performance_section",
+   "fieldtype": "Section Break",
+   "label": "Managing Performance"
+  },
+  {
+   "fieldname": "html_16",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/performance-review-discussion-plan.docx\" target=\"_blank\">Performance review discussion plan<br></a>"
+  },
+  {
+   "fieldname": "html_17",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/Performance-agreement-template.docx\" target=\"_blank\">Performance agreement template<br></a>"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "record_keeping_section",
+   "fieldtype": "Section Break",
+   "label": "Record Keeping"
+  },
+  {
+   "fieldname": "html_19",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/Staff-meeting-record-template.doc\" target=\"_blank\">Staff meeting record template<br></a>"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "1919-06-13 05:48:31.484980",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Fair Work",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

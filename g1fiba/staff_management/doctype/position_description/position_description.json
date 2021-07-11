@@ -1,0 +1,138 @@
+{
+ "actions": [],
+ "autoname": "field:full_name",
+ "creation": "2021-06-10 08:40:34.097693",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bd1",
+  "sb1",
+  "html_3",
+  "html_4",
+  "html_5",
+  "as",
+  "html_7",
+  "html_8",
+  "section_break_49",
+  "html_50",
+  "user",
+  "full_name",
+  "date1",
+  "sn2"
+ ],
+ "fields": [
+  {
+   "fieldname": "bd1",
+   "fieldtype": "HTML",
+   "label": "bd1",
+   "options": "<h1>Position Description</h1>"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "sb1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_3",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/1_CEO-PD.docx\" target=\"_blank\">1_CEO - PD</a><p><br></p>"
+  },
+  {
+   "fieldname": "as",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_5",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/A2_HR-Coordinator-PD-2.docx\" target=\"_blank\">A2_HR Coordinator - PD</a><p><br></p>"
+  },
+  {
+   "fieldname": "html_7",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/B_-Operations-Manager-PD.docx\" target=\"_blank\">B_ Operations Manager - PD</a><p><br></p>"
+  },
+  {
+   "fieldname": "section_break_49",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_50",
+   "fieldtype": "HTML",
+   "options": "<p>I have read and understood.</p>"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "Staff Member",
+   "options": "User",
+   "unique": 1
+  },
+  {
+   "fetch_from": "user.full_name",
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "sn2",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "html_4",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/A1_Bookkeeper-PD.docx\" target=\"_blank\">A1_Bookkeeper- PD</a><p><br></p>"
+  },
+  {
+   "fieldname": "html_8",
+   "fieldtype": "HTML",
+   "options": "<a class=\"btn btn-xs btn-default\" href=\"https://vccg.com.au/wp-content/uploads/2021/06/B1_DSW-PD-1.docx\" target=\"_blank\">B1_DSW - PD</a><p><br></p>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "1921-06-24 21:03:26.085159",
+ "modified_by": "Administrator",
+ "module": "Staff Management",
+ "name": "Position Description",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "G1Fiba Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
