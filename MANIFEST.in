@@ -4,15 +4,15 @@ include *.json
 include *.md
 include *.py
 include *.txt
-recursive-include g1fiba *.css
-recursive-include g1fiba *.csv
-recursive-include g1fiba *.html
-recursive-include g1fiba *.ico
-recursive-include g1fiba *.js
-recursive-include g1fiba *.json
-recursive-include g1fiba *.md
-recursive-include g1fiba *.png
-recursive-include g1fiba *.py
-recursive-include g1fiba *.svg
-recursive-include g1fiba *.txt
-recursive-exclude g1fiba *.pyc
+recursive-include g1victoria *.css
+recursive-include g1victoria *.csv
+recursive-include g1victoria *.html
+recursive-include g1victoria *.ico
+recursive-include g1victoria *.js
+recursive-include g1victoria *.json
+recursive-include g1victoria *.md
+recursive-include g1victoria *.png
+recursive-include g1victoria *.py
+recursive-include g1victoria *.svg
+recursive-include g1victoria *.txt
+recursive-exclude g1victoria *.pyc
